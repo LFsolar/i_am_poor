@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +15,8 @@ void main() {
             children: [
               Image.asset('images/bussman5-06.jpg'),
               const Text(
-                  'Image from https://www.vecteezy.com/free-vector/poor Poor Vectors by Vecteezy')
+                  'Image from https://www.vecteezy.com/free-vector/poor Poor Vectors by Vecteezy'),
+              const Text('Icon from https://icons8.com Icons8'),
             ],
           ),
         ),
